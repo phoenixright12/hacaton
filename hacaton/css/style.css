@@ -1,0 +1,244 @@
+@font-face {
+    font-family: 'MontserratBold';
+    src: url('/fonts/Montserrat-Bold.ttf');
+    font-weight: 700;
+  }
+@font-face {
+    font-family: 'MontserratExtraBold';
+    src: url('/fonts/Montserrat-ExtraBold.ttf');
+    font-weight: 800;
+}
+@font-face {
+    font-family: 'MontserratRegular';
+    src: url('/fonts/Montserrat-Regular.ttf');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'MontserratSemiBold';
+    src: url('/fonts/Montserrat-SemiBold.ttf');
+    font-weight: 600;
+}
+
+strong{
+    font-size: 18px;
+}
+
+.services__items-steps__links{
+    color: black;
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: #FF9CA6 !important;
+    color: #D4505D !important;
+}
+
+.btn{
+    padding: 6px 20px !important;
+    display: flex !important;
+    width: auto !important;
+}
+
+.me-auto{
+    margin-right: 0 !important;
+}
+
+.navbar-expand-lg .navbar-collapse{
+    justify-content: flex-end;
+}
+
+
+h2{
+    font-size: 40px;
+}
+
+*{
+    font-family: 'MontserratSemibold';
+}
+
+p, .accordion-body, a{
+    font-family: 'MontserratRegular';
+    
+}
+
+.accordion-body{
+    font-weight: lighter;
+}
+
+
+.hero{
+    height: 670px;
+}
+.hero-title{
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+.section-header{
+    margin-bottom: 30px;
+}
+.main{
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.figure-img{
+    width: 100%;
+    height: auto;
+}
+
+.gallery{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.carousel-inner{
+    height: 500px;
+}
+
+.section-title{
+    margin-bottom: 0;
+}
+
+footer a, li{
+   color: black !important;
+}
+
+.top{
+    border-top: 1px solid #ffffff;
+}
+
+.schem{
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+
+.input-number {
+    margin-bottom: 10px;
+    font-family: 'MontserratRegular';
+}
+
+.form-number{
+
+}
+
+
+.suggestions {
+    display: none;
+    border: 1px solid #ccc;
+    max-height: 200px; 
+    overflow-y: auto; 
+    background-color: rgb(62, 62, 62);
+    position: absolute; 
+    z-index: 1000; 
+}
+
+.suggestion-item {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.suggestion-item:hover {
+    background-color: #848484; 
+}
+
+.testofdata{
+    display: block !important;
+  
+
+}
+
+.services-description{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.section-steps{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) { 
+    .section-steps{
+        display: inline-block !important;
+        
+    }
+
+    .services-description strong{
+        font-size: 14px !important ;
+    }
+}
+
+@media screen and (max-width: px) {
+
+}
+
+.reviews__images{
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+}
+
+.reviews__container{
+    display: flex;
+    flex-direction: row !important;
+}
+
+.footer-i{
+    --bs-footer-link-padding-x: 1rem;
+    --bs-footer-link-padding-y: 0.5rem;
+    --bs-footer-link-font-weight: ;
+    --bs-footer-link-color: var(--bs-link-color);
+    --bs-footer-link-hover-color: var(--bs-link-hover-color);
+    --bs-footer-link-disabled-color: var(--bs-secondary-color);
+    display: flex;
+    /* flex-wrap: wrap; */
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.footer-link{
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.footer-container.col-md-4.justify-content-end {
+    display: flex !important ;
+}
+
+.footer-container{
+    opacity: 1 !important;
+   
+}
+
+.zoom-image {
+    border-radius: var(--bs-border-radius) !important;
+    transition: transform 2s ease; /* Плавная анимация */
+    object-fit: contain; /* Удерживать пропорции и не выходить за границы */
+}
+  
+.figure{
+    border-radius: var(--bs-border-radius) !important;
+    overflow: hidden;
+    margin-bottom: 0 !important;
+   
+}
+  
+.zoom-div{
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    border-radius: var(--bs-border-radius) !important;
+    padding-bottom: 15px !important;
+}
+  
+.zoom-image:hover {
+    border-radius: var(--bs-border-radius) !important;
+  transform: scale(1.1); /* Увеличить на 20% */
+  
+}
+
